@@ -9,11 +9,11 @@
 
 :root{
     --body-color: #f6f6f6;
-    --sidebar-color: #ff387a;
-    --primary-color: #ffffff;
+    --sidebar-color: #ffffff;
+    --primary-color: #ff387a;
     --primary-color-light: #F6F5FF;
-    --toggle-color: #ffc0d5;
-    --text-color: #ffc0d5;
+    --toggle-color: #ff387a;
+    --text-color: #ff387a;
 
     --tran-03: all 0.3s ease;
     --tran-04: all 0.3s ease;
@@ -32,7 +32,7 @@ body{
 }
 
 .nav-link:hover {
-    color: var(--white-color);
+    color: #FFFF;
   }
 
  .sidebar{
@@ -81,7 +81,7 @@ body{
 
 .sidebar .text{
     font-size: 17px;
-    font-weight: 300;
+    font-weight: 500;
     white-space: nowrap;
     opacity: 1;
 }
@@ -165,3 +165,17 @@ body{
     transition: var(--tran-04);
 }
 
+section h1{
+    padding-left: 150px;
+    padding-top: 50px;
+    font-weight: 500;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-grow{
+    flex-grow: 1;  /* ensures that the container will take up the full height of the parent container */
+    overflow-y: auto; 
+}
